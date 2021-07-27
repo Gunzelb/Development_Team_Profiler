@@ -1,5 +1,4 @@
-const { it, expect } = require("@jest/globals");
-const { describe } = require("yargs");
+const { describe, it, expect } = require("@jest/globals");
 const Employee = require("../lib/employee");
 
 describe("Employee", () => {
@@ -42,25 +41,25 @@ describe("Employee", () => {
     it('should return the value of the name property when the getName method is called', () => {
       const employee = new Employee('Brandon', 2, 'brandon@email.com');
 
-      expect(employee.getName()).toEqual('Brandon');
+      expect(employee.getName()).toReturn('Brandon');
     });
 
     it('should return the value of the id property when the getId method is called', () => {
       const employee = new Employee('Brandon', 2, 'brandon@email.com');
 
-      expect(employee.getId()).toEqual(2);
+      expect(employee.getId()).toReturn(2);
     });
 
     it('should return the value of the email property when the getEmail method is called', () => {
       const employee = new Employee('Brandon', 2, 'brandon@email.com');
 
-      expect(employee.getEmail()).toEqual('brandon@email.com');
+      expect(employee.getEmail()).toReturn('brandon@email.com');
     });
 
     it("should return 'Employee' when the getRole method is called", () => {
       const employee = new Employee('Brandon', 2, 'brandon@email.com');
 
-      expect(employee.getRole()).toEqual('Employee');
+      expect(employee.getRole()).toReturn('Employee');
     });
   });
 });
