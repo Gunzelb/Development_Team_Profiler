@@ -1,0 +1,28 @@
+{
+  "name": "development_team_profiler",
+  "version": "1.0.0",
+  "description": "Generates a team page for a Development Team based on user input",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gunzelb/Development_Team_Profiler.git"
+  },
+  "author": "Gunzelb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gunzelb/Development_Team_Profiler/issues"
+  },
+  "homepage": "https://github.com/Gunzelb/Development_Team_Profiler#readme"
+}
