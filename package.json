@@ -8,6 +8,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "ascii-art": "^2.8.5",
     "email-validator": "^2.0.4",
     "inquirer": "^8.1.2",
     "jest": "^27.0.6"
