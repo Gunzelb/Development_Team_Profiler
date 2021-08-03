@@ -1,7 +1,6 @@
 //Libraries
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const art = require('ascii-art');
 
 //Classes
 const Manager = require('./lib/manager');
@@ -14,7 +13,6 @@ let employees = [];
 const opening = [
   {
     type: 'input',
-    // art.font('Team Profile Generator', doom, true) +
     message: '\nWelcome to the Team Profile Generator. Please enter the name of the team manager:',
     name: 'name'
   },
