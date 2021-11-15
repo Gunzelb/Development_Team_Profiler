@@ -1,6 +1,8 @@
 # Development_Team_Profiler
 Generates an HTML team page from a template for a Development Team based on user input. The application requires the user to fill out information regarding their team members in the terminal.
 
+## Usage
+See the video links below to view an example of how to use the application:
 https://drive.google.com/file/d/1OwXJCpPauA1400iRHZTzp2DcoryCiCYs/view
 
 https://drive.google.com/file/d/1ExKhydKZhJNeMH0zNjLZWso6dQYlBN2S/view
